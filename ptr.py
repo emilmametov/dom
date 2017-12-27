@@ -1,3 +1,20 @@
+for a in range(1500, 2700):
+	if (a%7==0) and (a%5==0):
+		print (a)
+# ________________________
+o=0
+f=5
+while o<f:
+	print("*"*o)
+	o+=1
+	if o==f:
+		while o>0:
+			print("*"*(o))
+			o-=1
+			if o==0:
+				break
+		break
+-------------------------------------------
 
 #Урок 1 переменные 19.12.17
 
@@ -97,24 +114,6 @@
 # 		if i%5 == 0:
 # 			print(i)
 
-for a in range(1500, 2700):
-	if (a%7==0) and (a%5==0):
-		print (a)
-# ________________________
-o=0
-f=5
-while o<f:
-	print("*"*o)
-	o+=1
-	if o==f:
-		while o>0:
-			print("*"*(o))
-			o-=1
-			if o==0:
-				break
-		break
-
-
 # i = 0
 
 # while i<5:
@@ -128,7 +127,7 @@ while o<f:
 # 				break
 # 		break
 
-# a=[0,1,2,3,4,5,'text',-22,True,'hhhh' ]
+# a=[0,1,2,3,4,5,'text',-22,True,'hhhh']
 # empty_list=[]
 # b=[
 # [0,1,2,3,4,5],
@@ -145,9 +144,8 @@ while o<f:
 # for i in a:
 # 	res=res+i
 # print('res:{}'. format(res))
-# print('length of list "A"is:',len(a))
+print('length of list "A"is:',len(a))
 # print(a[6])
-
 
 # a=list()
 # a.append(5)
@@ -177,3 +175,9 @@ while o<f:
 
 # c=[x for x in range(20) if x %2==0]
 # print(c)
+
+
+
+
+
+
